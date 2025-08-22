@@ -1,0 +1,14 @@
+pillow==11.3.0
+PyBluez @ git+https://github.com/pybluez/pybluez.git@82cbba8a1ebd4c1e3442dfafd8581d58c50fa39e
+pystray==0.19.5
+setuptools==80.9.0
+six==1.17.0
+typing_extensions==4.14.1
+winrt-runtime==3.2.1
+winrt-Windows.Devices.Bluetooth==3.2.1
+winrt-Windows.Devices.Bluetooth.Advertisement==3.2.1
+winrt-Windows.Devices.Bluetooth.GenericAttributeProfile==3.2.1
+winrt-Windows.Devices.Enumeration==3.2.1
+winrt-Windows.Foundation==3.2.1
+winrt-Windows.Foundation.Collections==3.2.1
+winrt-Windows.Storage.Streams==3.2.1
