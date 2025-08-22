@@ -124,7 +124,7 @@ def setup_gui():
 def run_tray_icon():
     """Creates and runs the system tray icon in a non-blocking way."""
     global tray_icon
-    image = 'icon.png'
+    image = Image.open('icon.png')
     menu = (item('Show Controller', show_window, default=True), item('Exit', exit_application))
     tray_icon = icon("MotorController", image, "ESP32 Motor Controller", menu)
     tray_icon.run()
